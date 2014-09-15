@@ -1,0 +1,7 @@
+source "http://nuget.org/api/v2"
+
+nuget "Newtonsoft.Json" "~> 6.0"
+nuget "Nancy" "~> 0.23.2"
+nuget "NUnit.Runners" "~> 2.6.3"
+nuget "NUnit" "~> 2.6.3"
+nuget "Paket" "~> 0.1.1"
