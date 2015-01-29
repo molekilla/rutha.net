@@ -1,0 +1,10 @@
+source "http://nuget.org/api/v2"
+source "https://www.myget.org/F/aspnetvnext/"
+
+nuget "Nancy" "~> 1.0.0"
+nuget "NUnit.Runners" "~> 2.6.3"
+nuget "NUnit" "~> 2.6.3"
+nuget "Microsoft.AspNet.Hosting" "~> 1.0.0-beta1"
+nuget "Microsoft.AspNet.Mvc" "~> 5.2.2"
+nuget "Microsoft.AspNet.Owin" "~> 1.0.0-beta1"
+

@@ -1,25 +1,20 @@
-Rutha.NET
+# rutha.net - ASP.NET vNext with Angular#
 
-=========
+Pure pragmatic ASP.NET vNext stack
 
-ASP vNext / NancyMVC based dev stack
+Currently in beta
 
-* ALPHA
+### Features ###
 
-Currently
-============
-* Uses Mono 3.6.0 and up
-* NancyMVC
+* Uses Mono 3.12.0 and up
+* NancyMVC 1.0.0
 * Nuget
-* [Paket](http://fsprojects.github.io/Paket/)
-
-Ideas
-========
-* Use Grunt to automate dev workflow tasks as found  in Rutha for an ideal, front end strong, dev stack
+* ASP.NET vNext
+* [Paket 0.25.1](http://fsprojects.github.io/Paket/)
 
 
 ### Maintainers, notes ###
-Maintain by Rogelio Morrell C. . 
+Maintain by Rogelio Morrell C.
 
 ### Disclaimer ###
 Feel free to fork.
