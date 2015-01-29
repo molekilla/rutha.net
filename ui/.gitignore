@@ -1,0 +1,12 @@
+# Directories
+.grunt/
+releases/
+node_modules/
+logs/
+dist/components
+dist/app.js
+dist/sourcemap.map
+dist/templates.js
+# Files
+# test.pdf
+# test.txt
