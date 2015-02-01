@@ -1,16 +1,15 @@
 # rutha.net - ASP.NET vNext with Angular#
 
-Pure pragmatic ASP.NET vNext stack
+Pure pragmatic ASP.NET vNext stack with vagrant machine as development environment
 
 Currently in beta
 
 ### Features ###
 
-* Uses Mono 3.12.0 and up
+* Uses Mono 3.12.0 and up with ruthanet_deploy vagrant machine
 * NancyMVC 1.0.0
 * Nuget
 * ASP.NET vNext
-* [Paket 0.25.1](http://fsprojects.github.io/Paket/)
 
 
 ### Maintainers, notes ###
