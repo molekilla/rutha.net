@@ -1,7 +1,7 @@
 {
   "name": "rutha_net",
-  "version": "0.1.0",
-  "description": "rutha.net Service",
+  "version": "0.2.0",
+  "description": "rutha.net",
   "main": "lib/hapi/index.js",
   "scripts": {
     "install": "mono nuget update --self && cd tools && mono nuget install Paket -Version 0.25.1",

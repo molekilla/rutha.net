@@ -1,6 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
-namespace MvcSample.Web.Models
+namespace Rutha.Models
 {
     public class User
     {

@@ -2,14 +2,12 @@
 
 Pure pragmatic ASP.NET vNext stack with vagrant machine as development environment
 
-Currently in beta
+v0.2.0
 
 ### Features ###
 
-* Uses Mono 3.12.0 and up with ruthanet_deploy vagrant machine
-* NancyMVC 1.0.0
-* Nuget
-* ASP.NET vNext
+* Uses Mono 3.12.0 and up with [ruthanet_deploy](https://github.com/molekilla/ruthanet_deploy) ansible / vagrant machine
+* ASP.NET 6 Beta 1/2
 
 
 ### Maintainers, notes ###

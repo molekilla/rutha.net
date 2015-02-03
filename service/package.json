@@ -1,10 +1,10 @@
 {
-  "name": "rutha_stack_dotnet_service",
-  "version": "0.1.0",
+  "name": "rutha_dotnet_service",
+  "version": "0.2.0",
   "description": "rutha.net Service",
-  "main": "lib/hapi/index.js",
+  "main": "lib/Mvc/Startup.cs",
   "scripts": {
-    "start": "node lib/hapi/index.js",
+    "start": "k kestrel",
     "test": "grunt spec"
   },
   "author": "Rogelio Morrell",

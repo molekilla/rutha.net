@@ -1,9 +1,0 @@
-
-var __cov_RDSyaNkM$YL6HMGnaPAMYw = (Function('return this'))();
-if (!__cov_RDSyaNkM$YL6HMGnaPAMYw.__coverage__) { __cov_RDSyaNkM$YL6HMGnaPAMYw.__coverage__ = {}; }
-__cov_RDSyaNkM$YL6HMGnaPAMYw = __cov_RDSyaNkM$YL6HMGnaPAMYw.__coverage__;
-if (!(__cov_RDSyaNkM$YL6HMGnaPAMYw['/home/rogelio/Code/rutha/service/lib/controllers/users/index.js'])) {
-   __cov_RDSyaNkM$YL6HMGnaPAMYw['/home/rogelio/Code/rutha/service/lib/controllers/users/index.js'] = {"path":"/home/rogelio/Code/rutha/service/lib/controllers/users/index.js","s":{"1":0,"2":0,"3":0,"4":0,"5":0,"6":0},"b":{},"f":{"1":0},"fnMap":{"1":{"name":"(anonymous_1)","line":4,"loc":{"start":{"line":4,"column":19},"end":{"line":4,"column":51}}}},"statementMap":{"1":{"start":{"line":1,"column":0},"end":{"line":1,"column":38}},"2":{"start":{"line":2,"column":0},"end":{"line":2,"column":46}},"3":{"start":{"line":4,"column":0},"end":{"line":16,"column":2}},"4":{"start":{"line":6,"column":2},"end":{"line":13,"column":5}},"5":{"start":{"line":15,"column":2},"end":{"line":15,"column":9}},"6":{"start":{"line":18,"column":0},"end":{"line":20,"column":2}}},"branchMap":{}};
-}
-__cov_RDSyaNkM$YL6HMGnaPAMYw = __cov_RDSyaNkM$YL6HMGnaPAMYw['/home/rogelio/Code/rutha/service/lib/controllers/users/index.js'];
-__cov_RDSyaNkM$YL6HMGnaPAMYw.s['1']++;var debug=require('debug')('users');__cov_RDSyaNkM$YL6HMGnaPAMYw.s['2']++;var createHandler=require('./v1/create.js');__cov_RDSyaNkM$YL6HMGnaPAMYw.s['3']++;exports.register=function(plugin,options,next){__cov_RDSyaNkM$YL6HMGnaPAMYw.f['1']++;__cov_RDSyaNkM$YL6HMGnaPAMYw.s['4']++;plugin.route({method:'POST',path:'/v1/users',handler:createHandler,config:{auth:'token'}});__cov_RDSyaNkM$YL6HMGnaPAMYw.s['5']++;next();};__cov_RDSyaNkM$YL6HMGnaPAMYw.s['6']++;exports.register.attributes={pkg:require('./package.json')};
