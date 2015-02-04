@@ -1,11 +1,10 @@
 {
   "name": "rutha_dotnet_service",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "rutha.net Service",
-  "main": "lib/Mvc/Startup.cs",
   "scripts": {
-    "start": "k kestrel",
-    "test": "grunt spec"
+    "start": "export rutha_env=development;nodemon --exec \"k kestrel\" -e cs,json",
+    "postinstall": "kpm restore"
   },
   "author": "Rogelio Morrell",
   "repository": {
@@ -21,10 +20,18 @@
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-env": "~0.4.1",
+    "grunt-istanbul": "~0.3.0",
+    "grunt-jasmine-node": "~0.2.1",
     "grunt-jsdoc": "^0.6.2",
+    "grunt-node-inspector": "~0.1.5",
+    "grunt-nodemon": "~0.2.1",
+    "grunt-nsp-package": "0.0.5",
     "grunt-shell": "^1.1.1",
     "jit-grunt": "~0.8.0",
     "load-grunt-config": "~0.13.1",
+    "mongodb": "^1.4.18",
+    "rutha-grunt-mongo-migrations": "^0.1.1",
+    "rutha-grunt-tasks-service": "~0.1.5",
     "time-grunt": "~0.4.0"
   },
   "dependencies": {

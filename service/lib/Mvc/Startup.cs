@@ -10,8 +10,9 @@ namespace Rutha.Mvc
     {
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc();
-            services.AddSingleton<ITodoRepository, TodoRepository>();
+          services.AddMvc();
+          services.AddSingleton<ITodoRepository, TodoRepository>();
+          services.AddSingleton<IUserRepository, UserRepository>();
         }
 
         public void Configure(IApplicationBuilder app)

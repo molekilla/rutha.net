@@ -1,8 +1,0 @@
-NUGET
-  remote: http://nuget.org/api/v2
-  specs:
-    NUnit (2.6.3)
-    NUnit.Runners (2.6.3)
-    Nancy (0.23.2)
-    Newtonsoft.Json (6.0.5)
-    Paket (0.1.1)

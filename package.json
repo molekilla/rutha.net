@@ -1,10 +1,8 @@
 {
   "name": "rutha_net",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "rutha.net",
-  "main": "lib/hapi/index.js",
   "scripts": {
-    "install": "mono nuget update --self && cd tools && mono nuget install Paket -Version 0.25.1",
     "test": "grunt spec"
   },
   "author": "Rogelio Morrell",
