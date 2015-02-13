@@ -1,30 +1,36 @@
 {
-  "name": "rutha_net",
-  "version": "0.2.1",
+  "name": "rutha.net",
+  "version": "0.3.0",
   "description": "rutha.net",
   "scripts": {
-    "test": "grunt spec"
+    "start": "export ASPNET_ENV=development;nodemon --exec \"k kestrel\" -e cs,json",
+    "test": "export ASPNET_ENV=development;nodemon --exec \"k test\" -e cs,json",
+    "postinstall": "kpm restore -s https://www.myget.org/F/aspnetmaster/ -f https://nuget.org/api/v2/"
   },
   "author": "Rogelio Morrell",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/molekilla/rutha.net.git"
-  },
   "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-concurrent": "~0.5.0",
-    "grunt-contrib-clean": "~0.6.0",
-    "grunt-contrib-copy": "~0.5.0",
-    "grunt-contrib-jshint": "~0.10.0",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-env": "~0.4.1",
-    "grunt-jsdoc": "^0.6.2",
+    "grunt-angular-templates": "^0.5.7",
+    "grunt-bower-concat": "^0.4.0",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-compress": "^0.13.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.12.1",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-uglify": "^0.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-karma": "^0.10.1",
+    "grunt-ng-annotate": "^0.9.2",
+    "grunt-nodemon": "^0.4.0",
+    "grunt-preprocess": "^4.1.0",
     "grunt-shell": "^1.1.1",
-    "jit-grunt": "~0.8.0",
-    "load-grunt-config": "~0.13.1",
-    "time-grunt": "~0.4.0"
+    "grunt-wiredep": "^2.0.0",
+    "karma": "^0.12.31",
+    "load-grunt-config": "^0.16.0",
+    "rutha-dotnet-grunt-tasks": "^0.1.5",
+    "time-grunt": "^1.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

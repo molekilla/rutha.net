@@ -4,6 +4,14 @@ Pure pragmatic ASP.NET 5 front end workflow stack
 
 ### Changelog ###
 
+#### 0.3.0
+* New file structure
+* Improved grunt tasks with `rutha-dotnet-grunt-tasks`
+* Better project.json
+* Added kvm setup script
+* Rutha startup page is working
+
+
 #### 0.2.1
 
 * Using npm install for kpm restore
