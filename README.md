@@ -73,6 +73,13 @@ For updates, read [changelog](changelog.md)
 2. Run apps with `grunt serve`
 3. Go to http://192.168.88.88:3002/
 
+## Issues with kvm ?
+
+Try 
+`export KRE_FEED="https://www.nuget.org/api/v2"`
+`rm -rf ~/.k/runtimes/`
+`kvm install 1.0.0-beta2`
+
 ### Maintainers, notes ###
 Maintain by Rogelio Morrell C.
 

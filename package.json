@@ -1,6 +1,6 @@
 {
   "name": "rutha.net",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "rutha.net",
   "scripts": {
     "start": "export ASPNET_ENV=development;nodemon --exec \"k kestrel\" -e cs,json",
