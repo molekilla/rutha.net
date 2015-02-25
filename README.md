@@ -4,7 +4,7 @@ Pure pragmatic ASP.NET 5 front end workflow stack
 
 For updates, read [changelog](changelog.md)
 
-### Last update: 0.3.0
+### Last update: 0.3.1
 
 ## Features ##
 

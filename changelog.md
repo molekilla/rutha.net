@@ -4,7 +4,13 @@ Pure pragmatic ASP.NET 5 front end workflow stack
 
 ### Changelog ###
 
+#### 0.3.1
+
+* Adding NuGet.config
+
+
 #### 0.3.0
+
 * New file structure
 * Improved grunt tasks with `rutha-dotnet-grunt-tasks`
 * Better project.json
