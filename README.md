@@ -76,9 +76,10 @@ For updates, read [changelog](changelog.md)
 ## Issues with kvm ?
 
 Try 
-`export KRE_FEED="https://www.nuget.org/api/v2"`
-`rm -rf ~/.k/runtimes/`
-`kvm install 1.0.0-beta2`
+
+* `export KRE_FEED="https://www.nuget.org/api/v2"` 
+* `rm -rf ~/.k/runtimes/`
+* `kvm install 1.0.0-beta2`
 
 ### Maintainers, notes ###
 Maintain by Rogelio Morrell C.
